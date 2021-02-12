@@ -2,8 +2,16 @@
   "name": "johnsapp",
   "architect": {
     "app": "foo",
-    "http": [{
-      "/": {"src": ".", "method":"any"}
-    }]
+    "http": [
+      {
+        "/": {
+          "src": ".",
+          "method": "any"
+        }
+      }
+    ]
+  },
+  "devDependencies": {
+    "@architect/sandbox": "^3.3.6"
   }
 }
