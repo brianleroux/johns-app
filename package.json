@@ -1,0 +1,9 @@
+{
+  "name": "johnsapp",
+  "architect": {
+    "app": "foo",
+    "http": [{
+      "/": {"src": ".", "method":"any"}
+    }]
+  }
+}
